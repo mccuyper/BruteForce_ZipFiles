@@ -15,7 +15,7 @@ def generator(string):
             return
 
 
-directory = "ExtractedAfterCrack"
+directory = "Extracted"
 try:
     mkdir(directory)
 except FileExistsError:
